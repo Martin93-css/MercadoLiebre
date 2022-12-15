@@ -265,10 +265,7 @@ main form h2 {
   justify-content: flex-start;
   padding: 1rem 0;
 }
-main form {
-  width: 70%;
-  
-}
+
 
 .tipoUsuario {
   display: flex;
