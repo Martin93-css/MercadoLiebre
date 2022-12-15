@@ -1,0 +1,365 @@
+@import url(normalize.css);
+
+:root {
+  --amarrillo: #eac926;
+  --azul: #03264c;
+  --celeste: #1259c3;
+  --grisF: #666;
+  --GrisC: #ebebeb;
+  --Verde: #39b54a;
+}
+
+/*------------------------------------------- CUERPO DE LA WEB ------------------------------------ */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*-------------------------------------- HEADER ----------------------------------------- */
+
+.header-top {
+  display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-content: center;
+     padding: 2rem 0;
+     gap: 15px;
+ }
+
+
+
+header {
+background-color: var(--amarrillo);
+}
+
+.imagen-mercado-libre {
+width: 50%;
+width: 200px;
+}
+
+.compra-en-cuotas {
+text-align: center;
+font-weight: 400;
+font-family: sans-serif;
+
+}
+
+
+
+.main-navbar {
+display: inline-block;
+padding: 5px 0px;
+}
+
+.barra-de-busqueda {
+
+ width: 50%;
+
+
+}
+/* ------------------------- ICONOS------------------------ */
+main section article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  /* position: absolute; */
+  right: 20px;
+  top: -15px;
+}
+
+.fa-truck {
+  margin-left: 0.4rem;
+  font-size: 0.7rem;
+}
+
+.fa-search {
+  color: black;
+  background-color: var(--GrisC);
+  padding: 1px;
+  border-radius: 2px;
+  margin-left: 15px;
+}
+
+.burger-menu {
+  text-align: center;
+  padding: 10px;
+  color: #ebebeb;
+}
+
+.fa-bars {
+  color: var(--GrisC);
+  background-color: var(--celeste);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.fa-sign-in-alt,
+.fa-shopping-basket,
+.fa-id-card,
+.fa-hand-holding-usd,
+.fa-search {
+  color: black;
+}
+
+/* --------------------------ENLACE---------------- */
+
+.main-navbar {
+  display: none;
+}
+
+.main-navbar a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 0;
+  color: #222222;
+}
+
+.main-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/*--------------------------------------Tamaño de la letra -----------------------------------------*/
+
+.main-navbar li {
+  font-size: 12px;
+}
+
+.titulares {
+  font-size: 24px;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.precio {
+  font-size: 18px;
+}
+
+.descuento {
+  font-size: 16px;
+}
+
+.nombre-producto {
+  display: none;
+  font-size: 16px;
+  color: var(--grisF);
+}
+
+/* -------------------------------FOOTER--------------------------------- */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 150px;
+  gap: 1rem;
+}
+
+.iconos-footer {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: var(--celeste)
+}
+
+.titulo-footer {
+  margin-bottom: 0;
+  font-family: sans-serif;
+}
+
+.parrafo-footer {
+  margin-top: 0;
+ 
+  margin-bottom: 70px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.copyright {
+  font-size: 10px;
+}
+.iconos-footer:hover {
+ color: #0022AA
+
+}
+.registro button:hover {
+  background-color:#0022AA;
+}
+
+/* --------------------------Main------------------------ */
+
+.main{
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 0;
+  width: 100%;
+}
+main form {
+  width: 90%;
+}
+
+.calendario {
+  margin-bottom: 1rem;
+  
+
+}
+
+
+
+.form-control input {
+  margin: 1rem 1rem;
+  width: 80%;
+  padding: 10px 0 10px 0;
+  border-radius: 5px;
+  border-color: #666;
+}
+
+main form h2 {
+  font-weight: bolder;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  margin: 1rem 0 1rem 0;
+}
+.registro {
+  display: flex;
+  gap: 10%;
+}
+
+.registro button {
+  padding: 10px 20px 10px 20px;
+  margin-top: 1rem;
+  background-color: #03264c;
+  color: #ebebeb;
+  font-family: sans-serif;
+  border-radius: 5px;
+}
+
+
+.venta-compra input {
+  margin-left: 1rem;
+ }
+
+ .main{
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 0;
+}
+main form {
+  width: 70%;
+  
+}
+
+.tipoUsuario {
+  display: flex;
+  border: 0;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.tipoUsuario legend {
+  font-weight: bolder;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    margin: 1rem 0 1rem 0;
+
+}
+
+
+ul li {
+  list-style-type: none;
+}
+
+/* -----------------------Vista Table----------------- */
+@media (min-width: 420px) {
+  .producto {
+    
+    width: 45%;
+  }
+  .burger-menu {
+    display: none;
+  }
+
+  .main-navbar {
+    display: flex;
+
+    justify-content: space-between;
+  }
+
+  .main-navbar ul {
+    display: flex;
+  }
+
+  .main-navbar li {
+    margin: 0 5px;
+  }
+
+  /* .nombre-producto {
+    display: none;
+  } */
+
+  
+  .compra-en-cuotas {
+    max-width: 180px;
+    text-align: right;
+  }
+  .barra-de-busqueda {
+  
+    margin: auto;
+  }
+
+ } 
+
+
+
+/* ----------------Vista Escritorio----------- */
+@media (min-width: 769px) {
+  .producto {
+    
+    width: 20%;
+  }
+  .barra-de-busqueda {
+   /*  width: 20%; */
+    margin: auto;
+  }
+
+  .main-navbar a {
+    font-size: 16px;
+  }
+
+  .footer {
+    flex-direction: row;
+   }
+}
+
+/* -----------------Vista Maxima----------------- */
+
+@media (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: auto;}
+    .main-navbar a {
+      font-size: 18px;
+    }
+
+  }
+
